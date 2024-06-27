@@ -93,5 +93,3 @@ Para mais informações, entre em contato:
 - **LinkedIn:** https://www.linkedin.com/in/guilherme-braga-ferreira-3b4810290/
 
 ---
-
-Isso deve fornecer uma boa base para o seu README. Sinta-se à vontade para adaptar e expandir conforme necessário. Boa sorte com seu projeto!
