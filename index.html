@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Home - Biblioteca</title>
+</head>
+<body>
+    <!--
+Funcionalidades
+Cadastro de Livros: Permite adicionar, editar e remover livros do acervo da biblioteca.
+Gerenciamento de Usuários: Permite cadastrar e gerenciar os usuários da biblioteca.
+Controle de Empréstimos: Permite registrar, visualizar e controlar empréstimos e devoluções de livros.
+Categorias de Livros: Permite organizar os livros em categorias para facilitar a busca e o gerenciamento.
+    -->
+    <div class="container_fundo">
+        <h1> Sistema de Gerenciamento da Bilioteca</h1>
+        <form method="post" action="cadastro_livros.php">
+        <h2>cadastros de Livros</h2>
+        <label for="titulo">Titulo:</label>
+        <input type="text" id="titulo" name="titulo" placeholder="Digite o titulo do livro" required><br><br>
+
+        <label for="autor">Autor:</label>
+        <input type="text" id="autor" name="autor" placeholder="digite o nome do autor" required><br><br>
+
+        <label for="categorias">Categoria:</label>
+        <select id="categoria" name="categoria" required>
+        <option value="">selecione uma categoria</option>
+        <option value="romance">romance</option>
+        <option value="novela">novela</option>
+        <option value="conto">conto</option>
+        <option value="fabula">fabula</option>
+        <option value="lenda">lenda</option>
+        <option value="epopeia">epopeia</option>
+        <option value="poema">poema</option>
+        <option value="soneto">soneto</option>
+        <option value="ode">ode</option>
+        <option value="elegia">elegia</option>
+        <option value="haicai">haicai</option>
+        <option value="tragedia">tragedia</option>
+        <option value="comedia">comedia</option>
+        <option value="drama">drama</option>
+        <option value="ensaio">ensaio</option>
+        <option value="biografia">biografia</option>
+        <option value="autobiografia">autobiografia</option>
+        <option value="cronica">cronica</option>
+        <option value="memorias">memorias</option>
+        <option value="fantasia">fantasia</option>
+        <option value="ficcao">ficção cientifica</option>
+        <option value="misterio">misterio</option>
+        <option value="terror">terror</option>
+        </select><br><br>
+        <label for="ano-publicacao">ano de publicação</label>
+        <input id="ano-publicacao" type="number" name="ano-publicacao" placeholder="ano da publicação" required><br><br>
+        
+        <button class="cadastro livro" type="submit">Adicionar livro</button>
+    </form>
+    </div>
+</body>
+</html>
