@@ -1,4 +1,3 @@
-Ótima ideia! Um README bem escrito é essencial para qualquer projeto, pois ele explica do que se trata o projeto, como configurá-lo e como utilizá-lo. Aqui está um exemplo de como você pode estruturar o README para o seu Sistema de Gerenciamento de Biblioteca:
 
 ---
 
