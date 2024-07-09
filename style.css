@@ -1,0 +1,110 @@
+.container_fundo {
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -5px;
+    height: 100%;
+    --s: 82px;
+    --c1: #b2b2b2;
+    --c2: #ffffff;
+    --c3: #d9d9d9;
+  
+    --_g: var(--c3) 0 120deg, #0000 0;
+    background: conic-gradient(from -60deg at 50% calc(100% / 3), var(--_g)),
+      conic-gradient(from 120deg at 50% calc(200% / 3), var(--_g)),
+      conic-gradient(
+        from 60deg at calc(200% / 3),
+        var(--c3) 60deg,
+        var(--c2) 0 120deg,
+        #0000 0
+      ),
+      conic-gradient(from 180deg at calc(100% / 3), var(--c1) 60deg, var(--_g)),
+      linear-gradient(
+        90deg,
+        var(--c1) calc(100% / 6),
+        var(--c2) 0 50%,
+        var(--c1) 0 calc(500% / 6),
+        var(--c2) 0
+      );
+    background-size: calc(1.732 * var(--s)) var(--s);
+  }
+  .box1 {
+    width: 90%;
+    border:  solid 4px grey;
+    background-color: #d3d3d3;
+    border-radius: 30px;
+    left: 20px;
+  }
+  h1title{
+    font-size: 5vw;
+    font-family:'Times New Roman', Times, serif;
+}
+h1subtitle{
+    font-size: 5vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2title{
+    font-size: 3vw;
+    font-family:'Times New Roman', Times, serif;
+}
+@media (max-width: 600px) {
+}
+.container_fundo {
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -5px;
+    height: 100%;
+    --s: 82px;
+    --c1: #b2b2b2;
+    --c2: #ffffff;
+    --c3: #d9d9d9;
+  
+    --_g: var(--c3) 0 120deg, #0000 0;
+    background: conic-gradient(from -60deg at 50% calc(100% / 3), var(--_g)),
+      conic-gradient(from 120deg at 50% calc(200% / 3), var(--_g)),
+      conic-gradient(
+        from 60deg at calc(200% / 3),
+        var(--c3) 60deg,
+        var(--c2) 0 120deg,
+        #0000 0
+      ),
+      conic-gradient(from 180deg at calc(100% / 3), var(--c1) 60deg, var(--_g)),
+      linear-gradient(
+        90deg,
+        var(--c1) calc(100% / 6),
+        var(--c2) 0 50%,
+        var(--c1) 0 calc(500% / 6),
+        var(--c2) 0
+      );
+    background-size: calc(1.732 * var(--s)) var(--s);
+  }
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container_fundo {
+        width: 100%;
+        margin-top: -10px;
+        margin-left: -5px;
+        height: 100%;
+        --s: 82px;
+        --c1: #b2b2b2;
+        --c2: #ffffff;
+        --c3: #d9d9d9;
+      
+        --_g: var(--c3) 0 120deg, #0000 0;
+        background: conic-gradient(from -60deg at 50% calc(100% / 3), var(--_g)),
+          conic-gradient(from 120deg at 50% calc(200% / 3), var(--_g)),
+          conic-gradient(
+            from 60deg at calc(200% / 3),
+            var(--c3) 60deg,
+            var(--c2) 0 120deg,
+            #0000 0
+          ),
+          conic-gradient(from 180deg at calc(100% / 3), var(--c1) 60deg, var(--_g)),
+          linear-gradient(
+            90deg,
+            var(--c1) calc(100% / 6),
+            var(--c2) 0 50%,
+            var(--c1) 0 calc(500% / 6),
+            var(--c2) 0
+          );
+        background-size: calc(1.732 * var(--s)) var(--s);
+      }
+}
