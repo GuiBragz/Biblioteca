@@ -1,0 +1,10 @@
+.barra {
+    border: solid 3px brown;
+    background-color: grey;
+    color: grey;
+}
+.opcao {
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-stretch: expanded;
+}
